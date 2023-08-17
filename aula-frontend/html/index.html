@@ -1,47 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <title>Eliseu</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>layout</title>
 </head>
-
 <body>
 
-    <main>
-        <section id="sobre">
-            <h1>Portfólio Eliseu Augusto</h1>
-            <br />
-            <img src="../images/foto.jpeg" width="300" alt="foto do program é hoje">
-            
-            <h4>Olá, pessoal!</h4>
-            <p>Me chamdo Eliseu, Gestor de TI</p>
-            <br /> <br />
-        </section>
-        <section id="midias">
-            <h1>Midias </h1>
-            <audio controls>
-                <source src="../audio/red hot.mpeg" type="audio/mpeg" />
-            </audio>
-            <br /> <br />
-            <video width="400" height="240" controls>
+    <div class="background">
+        <header>
+            <div class="logo">
+                <i class="fa-regular fa-e"></i>
+            </div><!--logo-->
 
-                <source src="../video/Globo.mp4" type="video/mp4" />
-            </video>
-        </section>
-        <section id="redes">
-            <h1>Redes socias </h1>
-            <a href="https://www.linkedin.com/in/eliseu-augusto-817659a7/">Acesse meu linkedin
-                <br /> <br />
-        </section>
+            <div class="cabeçalho-link">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#">Serviços</a>
+                </li>
+
+                <li>
+                    <a href="#">Trabalho</a>
+                </li>
+                <button>Meu Contato</button>
+            </div><!--cabeçalho-link-->
+        </header>
+
+        <div class="container-text">
+            <div class="text">
+                <h3>Olá, Pessoal!</h3>
+                <h1>Me chamo <span>Eliseu Augusto</span></h1>
+                <p>Supervisor de TI<br>Empresa Home center Ferreira Costa</p>
+                <div class="redes-social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/3lis3u"><i class="fa-brands fa-github"></i></a>
+
+                    
+                    
+                </div><!--redes-social-->
+                <button class="btn">Perfil</button>
+            </div><!--text-->
+        </div><!--container-text-->
+    </div><!--background-->
 
 
-    </main>
 
-
+    <script type="script.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 </body>
-
 </html>
